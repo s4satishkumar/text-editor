@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import Details from "./components/Details";
 import TipTap from "./components/TipTap";
 
 
@@ -11,7 +10,6 @@ function App() {
     <div className="App">
       
       <TipTap setDescription={setDescription} />
-      <Details description={description} />
     </div>
   );
 }
